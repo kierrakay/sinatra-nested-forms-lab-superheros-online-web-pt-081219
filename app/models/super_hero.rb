@@ -11,7 +11,7 @@ attr_reader :name, :power, :bio
   end
 
   def save
-    self.class.all << self
+    self.all << self
   end
 
   def self.all
